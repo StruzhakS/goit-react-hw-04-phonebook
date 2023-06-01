@@ -1,0 +1,24 @@
+.container {
+  width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.form {
+  display: felx;
+}
+
+.totalContacts {
+  color: rgba(128, 128, 128, 0.689);
+  font-weight: 500;
+}
+
+.totalNumber {
+  font-weight: bold;
+  color: rgba(128, 128, 128, 0.633);
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+}

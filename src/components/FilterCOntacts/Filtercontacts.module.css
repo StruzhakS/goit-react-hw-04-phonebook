@@ -1,0 +1,22 @@
+.input {
+  width: 200px;
+  height: 30px;
+  font-size: 14px;
+  padding-left: 10px;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+  border-radius: 5px;
+  border-color: transparent;
+  outline-color: transparent;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.filtereText {
+  margin-right: 20px;
+  font-weight: 500;
+}

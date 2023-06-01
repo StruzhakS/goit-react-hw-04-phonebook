@@ -1,0 +1,46 @@
+.deleteButton {
+  background-color: rgba(253, 146, 139, 0.53);
+  width: 200px;
+  height: 40px;
+  font-style: 18px;
+  border-radius: 10px;
+  border-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* margin: 0 auto; */
+  cursor: pointer;
+}
+.deleteButton:hover {
+  background-color: rgba(247, 121, 112, 0.655);
+}
+.contactList {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  margin: 20px auto;
+
+  /* border: 1px solid salmon; */
+}
+
+.name {
+  margin-right: 20px;
+  width: 150px;
+}
+
+.listItem {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  justify-content: space-between;
+  width: 600px;
+  /* height: 200px; */
+  /* border: 1px dotted rgba(250, 128, 114, 0.703); */
+  box-shadow: rgba(250, 128, 114, 0.7) 0px 2px 8px 0px;
+  cursor: pointer;
+}
+.listItem:hover {
+  background-color: rgba(245, 149, 142, 0.538);
+  box-shadow: rgba(255, 77, 57, 0.795) 0px 2px 8px 0px;
+}
