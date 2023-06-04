@@ -1,7 +1,7 @@
 import propTypes from 'prop-types';
 import s from './DoForm.module.css';
 import { nanoid } from 'nanoid';
-const { Component, useState } = require('react');
+const { useState } = require('react');
 function DoForm({ addContact }) {
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
